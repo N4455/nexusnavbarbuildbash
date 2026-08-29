@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nexus OS — Home Button — Futuriste géométrique -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="44"
+    android:viewportHeight="44">
+
+    <!-- Hexagone extérieur -->
+    <path
+        android:pathData="M22,4 L36,12.5 L36,29.5 L22,38 L8,29.5 L8,12.5 Z"
+        android:strokeColor="?attr/singleToneColor"
+        android:strokeWidth="1.8"
+        android:fillColor="#00000000"/>
+
+    <!-- Losange intérieur -->
+    <path
+        android:pathData="M22,13 L30,22 L22,31 L14,22 Z"
+        android:strokeColor="?attr/singleToneColor"
+        android:strokeWidth="1.4"
+        android:fillColor="#00000000"/>
+
+    <!-- Point central -->
+    <path
+        android:pathData="M22,20 A2,2 0 1,1 22,24 A2,2 0 1,1 22,20 Z"
+        android:fillColor="?attr/singleToneColor"/>
+
+</vector>

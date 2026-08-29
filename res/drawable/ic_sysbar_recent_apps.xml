@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nexus OS — Recents Button — Futuriste géométrique -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="44"
+    android:viewportHeight="44">
+
+    <!-- Carte 1 (fond, décalée) -->
+    <path
+        android:pathData="M14,16 L32,16 L32,34 L14,34 Z"
+        android:strokeColor="?attr/singleToneColor"
+        android:strokeWidth="1.6"
+        android:fillColor="#00000000"/>
+
+    <!-- Carte 2 (avant, décalée haut-gauche) -->
+    <path
+        android:pathData="M10,11 L28,11 L28,29 L10,29 Z"
+        android:strokeColor="?attr/singleToneColor"
+        android:strokeWidth="1.6"
+        android:fillColor="?attr/singleToneColor"
+        android:fillAlpha="0.08"/>
+
+    <!-- Ligne de titre de la carte avant -->
+    <path
+        android:pathData="M14,16 L24,16"
+        android:strokeColor="?attr/singleToneColor"
+        android:strokeWidth="1.4"/>
+
+    <!-- Coin coupé géométrique en haut à droite -->
+    <path
+        android:pathData="M24,11 L28,15"
+        android:strokeColor="?attr/singleToneColor"
+        android:strokeWidth="1.4"/>
+
+</vector>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Nexus OS — Back Button — Futuriste géométrique -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="44"
+    android:viewportHeight="44">
+
+    <!-- Flèche géométrique gauche avec coupe angulaire -->
+    <path
+        android:pathData="M28,10 L28,20 L38,20 L38,24 L28,24 L28,34 L8,22 Z"
+        android:strokeColor="?attr/singleToneColor"
+        android:strokeWidth="1.6"
+        android:strokeLineJoin="miter"
+        android:fillColor="#00000000"/>
+
+    <!-- Ligne d'accent horizontale -->
+    <path
+        android:pathData="M16,21 L28,21"
+        android:strokeColor="?attr/singleToneColor"
+        android:strokeWidth="1.2"/>
+
+</vector>
